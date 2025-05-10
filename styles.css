@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to right, #030302, hsla(180, 65%, 13%, 0.965), hsl(192, 25%, 36%));
+    justify-content: center;
+    display: flex;
+}
+h1{
+    text-decoration: underline;
+    color:#030302;
+    text-align: center;
+}
+.container{
+    background-color: hsla(180, 7%, 97%, 0.301);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    align-content: center;
+    width: 30%;
+    display: flex;
+    height: 90%;
+}
+button{
+    background-color: lab(83.4% -52.07 20.17 / 0.685);
+    border-radius: 8px;
+}
+button:hover{
+    background-color:aqua;
+    color: black;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+.input{
+    border: 1px solid black;
+}
+#success_message{
+    color:rgba(30, 255, 0, 1);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
