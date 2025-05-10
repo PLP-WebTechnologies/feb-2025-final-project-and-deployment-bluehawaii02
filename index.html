@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>forms</title>
+    
+</head>
+<body>
+    
+    <div class="container" >
+        <form id= "form">
+            <h1>REGISTRATION</h1> 
+            <div>
+                <label for="fname">First Name:</label><br><br>
+                <input type="text" id="fname" name="fname" class="input"><br><br>
+                <div id="fname_error" class="error"></div>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label> <br><br>
+                <input type="text" id="lname" name="lname" class="input"><br><br>
+                <div id="lname_error" class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email:</label> <br><br>
+                <input type="email" id="email" name="email" class="input"><br><br>
+                <div id="email_error" class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password:</label> <br><br>
+                <input type="password" id="password" name="password" class="input"><br><br>
+                <div id="password_error" class="error"></div>
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" class="input">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+                </select><br><br>
+            </div>
+            <div>
+                <button type="submit" id="submit">Submit</button><br><br>
+            </div>
+            <div id="success_message" class="success"></div>
+        </form>
+    </div>
+    <script src="scripts.js"></script>   
+</body>
+</html>
